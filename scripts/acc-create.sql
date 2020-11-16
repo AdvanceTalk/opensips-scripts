@@ -1,5 +1,6 @@
 DROP TABLE ACC;
 
+INSERT INTO version (table_name, table_version) values ('acc','7');
 CREATE TABLE acc (
     id SERIAL PRIMARY KEY NOT NULL,
     method VARCHAR(16) DEFAULT '' NOT NULL,
